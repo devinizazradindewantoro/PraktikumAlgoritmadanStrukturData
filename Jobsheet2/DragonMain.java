@@ -18,5 +18,6 @@ public class DragonMain {
         dragon1.printStatus();
         System.out.println("Status Dragon 2:");
         dragon2.printStatus();
+        
     }
 }

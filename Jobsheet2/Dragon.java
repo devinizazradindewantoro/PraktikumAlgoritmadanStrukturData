@@ -7,6 +7,7 @@ public class Dragon {
         this.x = x;
         this.y = y;
         this.direction = direction;
+
     }
 
     public void changeDirection(int newDirection) {
