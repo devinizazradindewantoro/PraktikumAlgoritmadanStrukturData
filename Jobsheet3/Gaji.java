@@ -15,5 +15,4 @@ public class Gaji {
         System.out.println("Gaji Bersih : " + gajiBersihGuru);
         System.out.println("=========================================");
     }
-    
 }

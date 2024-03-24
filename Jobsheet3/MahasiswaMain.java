@@ -25,6 +25,7 @@ public class MahasiswaMain {
             double ipk = scanner.nextDouble();
 
             // Membuat objek Mahasiswa dan menambahkannya ke ArrayList
+            
             Mahasiswa mahasiswa = new Mahasiswa(nama, nim, jenisKelamin, ipk);
             mahasiswaList.add(mahasiswa);
         }
