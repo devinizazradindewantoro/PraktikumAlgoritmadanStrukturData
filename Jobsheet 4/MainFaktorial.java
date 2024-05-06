@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MainFaktorial16 {
+public class MainFaktorial {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -7,9 +7,9 @@ public class MainFaktorial16 {
         System.out.print("Masukkan jumlah elemen yang ingin dihitung: ");
         int elemen = sc.nextInt();
 
-        Faktorial16[] fk = new Faktorial16[elemen];
+        Faktorial[] fk = new Faktorial[elemen];
         for(int i = 0; i < elemen; i++){
-            fk[i] = new Faktorial16();
+            fk[i] = new Faktorial();
             System.out.print("Masukkan nilai data ke-"+(i+1)+": ");
             fk[i].nilai = sc.nextInt();
         }

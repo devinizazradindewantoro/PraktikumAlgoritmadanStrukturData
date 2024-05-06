@@ -1,4 +1,4 @@
-public class Faktorial16 {
+public class Faktorial {
     public int nilai;
     public int faktorialBF(int n) {
         int fakto = 1;

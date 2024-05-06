@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MainSum16 {
+public class MainSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("===================================================");
@@ -8,12 +8,12 @@ public class MainSum16 {
         System.out.print("Masukkan jumlah perusahaan: ");
         int jumlahPerusahaan = sc.nextInt();
 
-        Sum16[] perusahaan = new Sum16[jumlahPerusahaan];
+        Sum[] perusahaan = new Sum[jumlahPerusahaan];
 
         for (int i = 0; i < jumlahPerusahaan; i++) {
             System.out.print("Masukkan jumlah bulan untuk perusahaan " + (i + 1) + ": ");
             int jumlahBulan = sc.nextInt();
-            perusahaan[i] = new Sum16(jumlahBulan);
+            perusahaan[i] = new Sum(jumlahBulan);
 
             System.out.println("====================================================");
             for (int j = 0; j < jumlahBulan; j++) {

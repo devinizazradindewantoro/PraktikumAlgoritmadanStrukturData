@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MainNilaiAkar16 {
+public class MainNilaiAkar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("=======================================================");
@@ -8,9 +8,9 @@ public class MainNilaiAkar16 {
         System.out.print("Masukkan jumlah bilangan yang ingin dihitung akarnya: ");
         int jumlahBilangan = sc.nextInt();
 
-        NilaiAkar16[] akar = new NilaiAkar16[jumlahBilangan];
+        NilaiAkar[] akar = new NilaiAkar[jumlahBilangan];
         for (int i = 0; i < jumlahBilangan; i++) {
-            akar[i] = new NilaiAkar16();
+            akar[i] = new NilaiAkar();
             System.out.print("Masukkan bilangan ke-" + (i + 1) + ": ");
             akar[i].nilai = sc.nextInt();
         }

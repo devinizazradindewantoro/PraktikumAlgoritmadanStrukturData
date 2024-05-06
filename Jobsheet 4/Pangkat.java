@@ -1,6 +1,6 @@
-public class Pangkat16 {
+public class Pangkat {
     public int nilai, pangkat;
-    public Pangkat16(int nilai, int pangkat) {
+    public Pangkat(int nilai, int pangkat) {
         this.nilai = nilai;
         this.pangkat = pangkat;
     }

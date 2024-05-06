@@ -1,5 +1,3 @@
-package Klinik;
-
 import java.util.Scanner;
 
 public class PasienDemo {

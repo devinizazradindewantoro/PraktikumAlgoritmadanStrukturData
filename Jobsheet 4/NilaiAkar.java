@@ -1,4 +1,4 @@
-public class NilaiAkar16 {
+public class NilaiAkar {
     public int nilai;
 
     public int nilaiAkarBF(int bilangan) {

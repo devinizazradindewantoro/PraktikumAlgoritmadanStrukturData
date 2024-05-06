@@ -1,5 +1,3 @@
-package Klinik;
-
 public class Pasien{
   String nama;
   String noID;

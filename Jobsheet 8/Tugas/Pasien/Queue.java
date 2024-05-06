@@ -1,5 +1,3 @@
-package Klinik;
-
 public class Queue {
     public Pasien [] data;
     public int max;

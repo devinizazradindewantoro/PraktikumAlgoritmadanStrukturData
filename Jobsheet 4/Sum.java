@@ -1,9 +1,9 @@
-public class Sum16 {
+public class Sum {
     public int elemen;
     public double keuntungan[];
     public double total;
 
-    Sum16(int elemen) {
+    Sum(int elemen) {
         this.elemen = elemen;
         this.keuntungan = new double[elemen];
         this.total = 0;
